@@ -5,12 +5,6 @@
 </template>
 
 <style>
-*{
-    font-family:"Nunito";
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-}
 
 </style>
 <script>

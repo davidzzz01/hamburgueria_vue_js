@@ -1,7 +1,9 @@
 <template>
-    <div id="footer">
-        <p class="tex-center">Make Your Burger &copy; 2021</p>
+    <footer class="fixed-bottom">
+    <div>
+        <p class="text-center "> David Dantas &copy; 2024</p>
     </div>
+    </footer>
 </template>
 
 <script>
@@ -11,8 +13,8 @@ export default {
 </script>
 
 <style scoped>
-#footer {
-    height: 80px;
+footer {
+    height: 70px;
     background-color:#995722;
     color: #fcba03;
     display: flex;

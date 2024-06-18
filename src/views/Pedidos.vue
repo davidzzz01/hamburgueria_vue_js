@@ -1,22 +1,22 @@
 <template>
-    <Banner />
-  <div class="about">
-  <p class="text-center">Seus pedisos ficarão aqui...</p>
-
-  </div>
-
+    <Banner/>
+    <div>
+        <div class="main-container">
+            <h1 class="text-center mb-4 mt-4">Gerenciar pedidos:</h1>
+            <Dashboard />
+        </div>
+    </div>
 </template>
 
 <script>
-import axios from "axios";
+import Dashboard from '../components/Dashboard'
 import Banner from "@/components/Banner";
-import Footer from "@/App";
-
 
 export default {
-    components: {Footer, Banner}
+    name: 'Pedidos',
+    components: {
+        Banner,
+        Dashboard
+    }
 }
-
 </script>
-
-<style scoped></style>

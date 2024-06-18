@@ -55,27 +55,68 @@
       },
       {
         "id": 4,
-        "tipo": "Cebola roxa"
+        "tipo": "Molho especial"
       },
       {
         "id": 4,
-        "tipo": "Pepino"
+        "tipo": "Alface"
       }
     ]
   },
   "status": [
     {
-      "id": 1,
+      "id": "1",
       "tipo": "Solicitado"
     },
     {
-      "id": 2,
+      "id": "2",
       "tipo": "Em produção"
     },
     {
-      "id": 3,
+      "id": "3",
       "tipo": "Finalizado"
     }
   ],
-  "burgers": []
+  "burgers": [
+    {
+      "id": "47f6",
+      "nome": "David Dantas",
+      "carne": "Alcatra",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon",
+        "Salame",
+        "Cheddar",
+        "Tomate",
+        "Alface"
+      ],
+      "status": "Em produção"
+    },
+    {
+      "id": "b71f",
+      "nome": "madil",
+      "carne": "Picanha",
+      "pao": "Integral",
+      "opcionais": [
+        "Bacon",
+        "Cheddar",
+        "Tomate",
+        "Molho especial"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "3f65",
+      "nome": "madil",
+      "carne": "Picanha",
+      "pao": "Integral",
+      "opcionais": [
+        "Bacon",
+        "Cheddar",
+        "Tomate",
+        "Molho especial"
+      ],
+      "status": "Solicitado"
+    }
+  ]
 }
